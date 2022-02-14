@@ -24,7 +24,7 @@ bot.on('photo', msg => {
     }
 });
 
-const TesseractScript = async (path:string, chatId: number) => {
+const TesseractScript = async (path: string, chatId: number) => {
     await bot.sendMessage(chatId, 'Происходит считывание текста, пожалуйста подождите...');
     await fs.readdir(path, async (err, files) => {
         await console.log(files);
