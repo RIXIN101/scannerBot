@@ -5,10 +5,8 @@
         "esModuleInterop": true,
         "removeComments": true,
         "moduleResolution": "node",
-        "sourceMap": true,
         "outDir": "dist",
         "noEmitOnError": true,
-        "noUnusedLocals": false
     },
     "lib": ["es2015"]
 }
